@@ -7,20 +7,56 @@ body {
     background-size: cover;
 }
 
+header {
+    background-color: #08A6D6;
+    color: #fff;
+    text-align: center;
+    padding: 75px;
+}
+
 .logo {
-    width: 200px;
+    width: 260px;
     position:absolute;
     top: 50px;
     left: 50px;
 }
 
-.search-input {
-    display: inline-block;
-    text-align: start;
-    left: 1100px;
+.search-box {
     position: absolute;
+    width: 200px;
+    left: 1100px;
     top: 50px;
-    border-radius: 20px;
-    background-color: #212121;
-       
-}
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 10px 30px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #555;
+  }
+
+  footer {
+    background-color: #08A6D6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .content {
+    padding: 20px;
+    
+
+  }
